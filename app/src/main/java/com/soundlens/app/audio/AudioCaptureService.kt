@@ -15,6 +15,7 @@ import android.os.IBinder
 import com.soundlens.app.Bus
 import com.soundlens.app.CaptureMode
 import com.soundlens.app.MainActivity
+import com.soundlens.app.RecognitionSnapshot
 import com.soundlens.app.R
 import com.soundlens.app.SoundLensApp
 import java.io.File

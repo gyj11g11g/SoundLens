@@ -62,7 +62,7 @@ class SoftmaxClassifier {
         std = FloatArray(d)
         for (s in samples) for (i in 0 until d) mean[i] += s.x[i]
         val n = samples.size
-        for (i in 0 until d) mean[i] /= n
+        for (i in 0 until d) mean[i] = mean[i] / n
         for (s in samples) for (i in 0 until d) {
             val diff = s.x[i] - mean[i]
             std[i] += diff * diff
