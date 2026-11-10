@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">声纹 lenses · 声音训练器</string>
+    <string name="capture_notification_title">声音采集运行中</string>
+    <string name="capture_notification_text">正在采集周边环境声音样本</string>
+    <string name="recognize_notification_title">声音识别运行中</string>
+    <string name="recognize_notification_text">正在实时识别周边环境声音</string>
+</resources>
